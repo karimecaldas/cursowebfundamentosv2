@@ -1,0 +1,42 @@
+body {
+    background-color: #ccc;
+}
+
+h1 {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px; 
+}
+
+h2 {
+    color:blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 38px;
+    font-style: italic;
+}
+
+h3 {
+    color:blue;
+    font-size: 38px;
+    text-transform: capitalize; 
+    text-align: center;
+    text-decoration: underline;
+    background-color: chocolate;
+}
+
+p {
+    text-indent: 28px;
+    font-size: 28px;
+    text-align: left;
+    color:brown;
+    font-variant: small-caps; /* Todas as letras maiusculsa, porem a letra inical sera maior */
+}
+
+.destaque {
+    color:#00126d; 
+    font-weight: bold;
+}
+
+#title {
+    color: #0457086c;
+}
