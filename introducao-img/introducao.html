@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Trabalhando com imagens</title>
+
+    <style>
+
+        body {
+            font-size: 22px; /*definir o tamanho do texto de um elemento. Ela controla a altura das letras*/
+            font-family: sans-serif;
+            width: 700px;
+            margin: auto; /* para deixar centralizado*/
+
+            background-image: url(imagens/bg.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            background-size: cover;
+            background-position: right bottom;
+        }
+
+        p {
+            line-height: 1.5; /* define a altura entre as linhas de um elemento */
+            text-align: justify; /* faz com que as linhas do texto tenham o mesmo comprimento ajustando os espaços entre as palavras */
+        }
+
+        .img-logo {
+            width: 300px ; /* largura */
+        }
+
+        .img-html {
+            float: left;
+        }
+
+        .img-css {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Trabalhando com imgaens</h1>
+
+    <h2>Imagens vetoriais vs bitmap</h2>
+
+    <p>Imagens vetoriais são criadas a partir de um modelo geométrico, enquanto imagens bitmap são armazenadas como matrizes de pixels com valores de cor.</p>
+    <img src="imagens/logo_ser-frontend-ico.png" class="img-logo" alt="logotipo serfrontend">
+    <br>
+    <img src="imagens/logo_ser-frontend-ico.svg" class="img-logo" alt="logotipo serfrontend">
+
+    <h2>Imagens transparentes</h2>
+
+    <p>Alguns navegadores não suportam imagens transparentes. Para torná-las visíveis, você pode usar uma imagem PNG com fundo transparente.</p>
+    <img src="imagens/logo_ser-frontend-ico-transparente.gif" class="img-logo" alt="">
+    <br>
+    <img src="imagens/logo_ser-frontend-ico-transparente.png" class="img-logo" alt="">
+
+    <h2>Gif animado</h2>
+
+    <p>Gifs animados são utilizados para mostrar efeitos animados, como movimento, mudança de cor ou efeito de explosão.</p>
+    <img src="imagens/walk.gif" alt="animação mulher andando">
+
+    <h2>Float</h2>
+
+    <p>Float é um método de posicionamento que permite que um elemento seja posicionado à esquerda ou à direita de outro elemento na página.</p>
+    <br>
+    <img src="imagens/html5.png" alt="logotipo html5" class="img-html">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Nulla facilisi. Nulla facilisi. Nulla facilisi.</p>
+    <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, impedit!</P>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quae adipisci vel ullam, 
+        impedit quisquam eum ratione animi accusamus obcaecati! Doloribus aspernatur excepturi nam cumque!</p>
+
+    <br>    
+    
+    <img src="imagens/css3.png" alt="logotipo CSS3" class="img-css">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Nulla facilisi. Nulla facilisi. Nulla facilisi.</p>
+    <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, impedit!</P>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quae adipisci vel ullam, 
+        impedit quisquam eum ratione animi accusamus obcaecati! Doloribus aspernatur excepturi nam cumque!</p>
+
+</body>
+</html>
