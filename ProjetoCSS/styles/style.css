@@ -1,0 +1,69 @@
+body {
+    margin: 0; /* significa que o espaçamento externo de um elemento foi definido como zero em todas as direções. Isso elimina qualquer espaço extra entre o elemento e os outros ao redor. */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+}
+
+.hero {
+    background-image: url(../imagens/bg-3.jpg);
+    height: 500px; /* altura de um elemento */
+    background-size: cover;
+    background-position: right center;
+    padding: 1px; /* apoiar no top do hero */
+}
+
+.hero-content {
+    margin: 100px auto 0;
+    width: 80%; /*  largura de um elemento */
+    text-align: center;
+    color: white;
+    
+}
+
+.hero-content h1 {
+    font-size: 56px;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase; /* letra maiscula */
+    margin-bottom: 0;
+}
+
+.hero-content p {
+    background-color: rgb(0,0,0, 0.7); /* para fazer uma transparencia */
+    font-size: 18px;
+    display: inline-block; /* controle de dimensão */
+    padding: 16px; /* O padding é essencial no estilo de elementos com display: inline-block, pois ele ajuda a criar espaçamento interno dentro do elemento. */
+    border-bottom: 2px solid;
+}
+
+.hero nav ul {
+    margin: 20px 80px 0 0;
+    text-align: right; /* para ficar no cantinho */
+}
+
+.hero nav ul li {
+    display: inline-block; /* se comporta como elemento de linha */
+    list-style-type: none; /*  usada para remover os marcadores padrão de uma lista, como os bullets */
+    border: 1px solid white;
+    margin-left: 16px;
+}
+
+.hero nav a {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 16px; /* se estou colocando um padding, estou falando de boxmodel */
+    display: block; /* como eu sei que a tag a por padrão é um elemento de linha, precisamos do display block */
+    color: white;
+    text-decoration: none; /* para tira o sublinhado */
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px; /* quanto que eu quero de distanciamento de uma fonte a outra */
+}
+
+.hero nav a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+main {
+    width: 90%; /* largura */
+    margin: auto; /* para ficar sempre centralizado */
+    max-width: 860px;
+}
