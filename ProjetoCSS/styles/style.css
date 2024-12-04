@@ -67,3 +67,52 @@ main {
     margin: auto; /* para ficar sempre centralizado */
     max-width: 860px;
 }
+
+/* section 
+    padding-top: 32px; espaçamento acima 
+     */
+
+article {
+    background-color:  white;
+    padding: 16px; /* espaçamento interno */
+    margin-bottom: 32px; /* distanciar um elemento do outro somente na parte de baixo */ /* colocar um espaço entre um article e outro */
+    margin-top: 32px; /* espaçamento acima */
+}
+
+article h2 {
+    border-bottom: 2px solid #ccc;
+    background-color: #eee;
+    padding: 10px; /* para não deixar o conteúdo tão colocado na borda interna do h2 */
+    margin-bottom: 0;
+}
+
+/* a .btn 
+    seleciona os elementos que tem a classe btn que estão dentro de um elemento a;
+    o espaço significa descendente
+    */
+
+
+a.btn { /* vai selecionar o elemento com a classe btn */
+    background-color: #cdc7c3;
+    display: inline-block; /* colocando isso, pois quero colocar um padding */
+    padding: 12px 16px;
+    border-radius: 6px;
+    /* width: fit-content; ajusta ao conteúdo */
+
+    color: purple transparent;
+    cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+}
+
+a.btn:hover {
+    background-color: #c79889; /* Cor do botão ao passar o mouse */
+    color: green;
+}
+
+.rodape {
+    color: white;
+    background-color: #6b6c68;
+    text-align: center;
+    padding: 1px; /* Ele define a distância entre o conteúdo do elemento e suas bordas */
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 2px;
+}
