@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Fit content</title>
+
+    <style>
+        .container {
+            border: 2px solid black;
+            padding: 16px; /* para separar um pouco o contéudo */
+            width: 300px; /* largura */
+            margin-bottom: 16px; /* de uma div para outra */
+        }
+
+        .item {
+            background-color: blueviolet;
+            margin-bottom: 10px;
+            padding: 5px; /* para espaçamento interno */
+
+        }
+
+        .fit-content .item {
+            width: fit-content;
+        }
+
+        .min-content .item {
+            width: min-content;
+        }
+
+        .max-content .item {
+            width: max-content;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <div class="container fit-content">
+        <div class="item">lorem</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, reprehenderit.</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id dolore, odio neque 
+            error officiis a quod fugiat deleniti modi eos sequi soluta. Explicabo, dolore reiciendis!</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, minima est veniam
+            ducimus sed suscipit aut consequatur accusamus molestias minus id, quae corrupti laudantium omnis
+            sunt impedit a pariatur! Eligendi quos minima illum porro dolorem ratione dolorum vitae corrupti
+            sit soluta recusandae itaque ea fugiat, animi fugit fuga repudiandae! Esse accusamus veritatis, 
+            beatae libero cupiditate magni ipsum culpa earum cumque, dignissimos ut necessitatibus id. Est hic 
+            eius doloribus fugit perspiciatis laborum molestias, eligendi explicabo sed.</div>
+        
+    </div>
+    
+    <div class="container min-content">
+        <div class="item">lorem</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, reprehenderit.</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id dolore, odio neque 
+            error officiis a quod fugiat deleniti modi eos sequi soluta. Explicabo, dolore reiciendis!</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, minima est veniam
+            ducimus sed suscipit aut consequatur accusamus molestias minus id, quae corrupti laudantium omnis
+            sunt impedit a pariatur! Eligendi quos minima illum porro dolorem ratione dolorum vitae corrupti
+            sit soluta recusandae itaque ea fugiat, animi fugit fuga repudiandae! Esse accusamus veritatis, 
+            beatae libero cupiditate magni ipsum culpa earum cumque, dignissimos ut necessitatibus id. Est hic 
+            eius doloribus fugit perspiciatis laborum molestias, eligendi explicabo sed.</div>
+        
+    </div>
+
+    <div class="container max-content">
+        <div class="item">lorem</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, reprehenderit.</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id dolore, odio neque 
+            error officiis a quod fugiat deleniti modi eos sequi soluta. Explicabo, dolore reiciendis!</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, minima est veniam
+            ducimus sed suscipit aut consequatur accusamus molestias minus id, quae corrupti laudantium omnis
+            sunt impedit a pariatur! Eligendi quos minima illum porro dolorem ratione dolorum vitae corrupti
+            sit soluta recusandae itaque ea fugiat, animi fugit fuga repudiandae! Esse accusamus veritatis, 
+            beatae libero cupiditate magni ipsum culpa earum cumque, dignissimos ut necessitatibus id. Est hic 
+            eius doloribus fugit perspiciatis laborum molestias, eligendi explicabo sed.</div>
+        
+    </div>
+</body>
+</html>
